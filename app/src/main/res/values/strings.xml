@@ -5,6 +5,36 @@
     <string name="password_hint">Password</string>
     <string name="forgot_your_password">Forgot your password ?</string>
     <string name="login_button">Login</string>
-    <string name="you_don_t_have_an_account">You don\'t have an account ? Sign Up instead !</string>
+    <string name="you_don_t_have_an_account">You don\'t have an account? Sign Up</string>
     <string name="sign_up">Sign Up</string>
+    <string name="profile">Profile</string>
+    <string name="jamal">Jamal</string>
+    <string name="denji">denji</string>
+    <string name="c_rien_c_la_rue">C rien c la rue</string>
+    <string name="rabat">Rabat</string>
+    <string name="memories">Memories</string>
+    <string name="username_signup">Username</string>
+    <string name="full_name_signup">Full Name</string>
+    <string name="phone_number_signup">Phone Number</string>
+    <string name="password_hint_signup">Password</string>
+    <string name="confirm_password_signup">Confirm password</string>
+    <string name="sign_up_button_signup">Sign Up</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log In</string>
+    <string name="try_something_new_everyday">Share Your Real Moments !!</string>
+    <string name="get_started">Get Started</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="large_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ex sed nisl semper viverra in vulputate est. In blandit diam id magna varius, nec laoreet nisl bibendum. Sed a est augue. Vivamus vestibulum condimentum libero, nec faucibus lacus consequat nec. Donec eu consequat ipsum, non aliquam turpis. Quisque nisi velit, porta eu mattis vitae, sagittis eu arcu. Nulla nec erat augue.
+
+Praesent vel malesuada leo, quis porttitor ante. Donec varius tellus vitae viverra tempor. Integer mauris ex, molestie ut elementum ut, sodales vel lectus. Nunc elementum magna a dui auctor, eget vehicula odio egestas. Sed eleifend erat eu erat tincidunt, vitae facilisis ipsum dignissim. Ut nulla ex, cursus eu vestibulum id, molestie efficitur elit. Phasellus condimentum lorem eu lacus interdum accumsan. Nunc id sollicitudin nisi, sed venenatis diam. Sed est diam, iaculis et consectetur quis, interdum sed tortor. Nullam et lacus euismod, sodales dolor sit amet, commodo erat. Aenean gravida diam sed felis imperdiet iaculis. Aliquam tincidunt est sit amet ipsum viverra, at porta elit tincidunt.
+
+Mauris in dui turpis. Ut id nunc sollicitudin, suscipit velit a, blandit nibh. Nam molestie ante in dui dictum mattis. Fusce porttitor vehicula sem at sollicitudin. Vivamus mollis, lorem et volutpat efficitur, nisl justo ultrices arcu, ut egestas enim lectus ut orci. Integer maximus sem ut elit convallis, vel efficitur dui imperdiet. Donec auctor ex in nibh efficitur placerat. Nunc sit amet lacus nec erat fermentum viverra et vitae diam. Nulla pellentesque, metus pretium commodo dapibus, mi metus fringilla ex, nec molestie magna massa non magna. Nunc facilisis tellus id gravida fermentum. Donec aliquet efficitur elit eu finibus. Duis pulvinar sollicitudin nisi. Nam at erat sed ante accumsan sodales. Sed commodo ornare dolor vestibulum imperdiet. Aenean fermentum nibh lacus, eu posuere libero placerat ac. Cras vitae lectus aliquet, interdum risus a, commodo lectus.
+
+Morbi eu justo in mauris dictum posuere sit amet sit amet nisi. Suspendisse cursus gravida libero at condimentum. Praesent sollicitudin metus eu odio placerat, vitae consectetur libero dignissim. Nam non diam ut felis condimentum convallis vitae a ipsum. Curabitur ornare tempor tortor, sit amet venenatis nisl. Ut mollis dignissim purus, commodo accumsan libero vehicula sed. Nulla venenatis libero vel dui porta, nec pharetra turpis congue. Praesent tristique efficitur nibh id porta. Suspendisse rutrum leo porta accumsan tincidunt. Proin non pulvinar diam. Mauris non efficitur ipsum. In tincidunt mi nunc, ut tempus magna laoreet non.
+
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed non nisl lacus. Quisque eget purus tempus, dignissim ligula eu, auctor erat. Mauris porta velit diam, vitae feugiat lacus ornare ac. Phasellus nunc mauris, tristique iaculis placerat ut, finibus id lorem. Donec aliquet hendrerit viverra. Curabitur porttitor id lectus in porta. Nunc nibh mi, elementum sit amet ullamcorper sit amet, fringilla non nisi. Quisque et sem maximus, aliquam lorem nec, tempor erat. In suscipit lacus aliquam tincidunt viverra. In ac nisl metus.</string>
+    <string name="friends">Friends</string>
+    <string name="discover">Discover</string>
+    <string name="todo">TODO</string>
+    <string name="_3h_late">3h late</string>
+    <string name="_2_min_left_to_capture_your_picture_and_see_what_your_friends_are_up_to">2 min left to capture your picture and see what your friends are up to</string>
 </resources>

@@ -23,21 +23,21 @@
 
     <!-- Email Field -->
     <TextView
-        android:id="@+id/email_address_hint"
+        android:id="@+id/email_hint_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/email_address_hint"
         android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="@id/email_login_field"
+        app:layout_constraintLeft_toLeftOf="@id/email_field_login"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4"
 
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/email_login_field"
+        android:id="@+id/email_field_login"
         android:layout_width="318dp"
         android:layout_height="42dp"
         android:layout_marginTop="10dp"
@@ -47,22 +47,24 @@
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/email_address_hint"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="@id/email_hint_login"
+        tools:ignore="LabelFor,MissingConstraints"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
     <!--Password Field -->
     <TextView
-        android:id="@+id/password_hint"
+        android:id="@+id/password_hint_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:text="@string/password_hint"
         android:textColor="@color/white"
-        app:layout_constraintLeft_toLeftOf="@id/password_login_field"
-        app:layout_constraintTop_toBottomOf="@id/email_login_field"
+        app:layout_constraintLeft_toLeftOf="@id/password_field_login"
+        app:layout_constraintTop_toBottomOf="@id/email_field_login"
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/password_login_field"
+        android:id="@+id/password_field_login"
         android:layout_width="318dp"
         android:layout_height="42dp"
         android:autofillHints="Password"
@@ -72,11 +74,14 @@
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/password_hint" />
+        app:layout_constraintTop_toBottomOf="@id/password_hint_login"
+        tools:ignore="LabelFor"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
 
     <!--Forgot your password ? -->
     <TextView
-        android:id="@+id/forgot_your_password"
+        android:id="@+id/forgot_your_password_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/forgot_your_password"
@@ -84,7 +89,7 @@
         android:textAlignment="center"
         android:textColor="#88CCFF"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/password_login_field" />
+        app:layout_constraintTop_toBottomOf="@id/password_field_login" />
 
     <!-- Login Button ? -->
     <Button
@@ -99,20 +104,22 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/forgot_your_password"
+        app:layout_constraintTop_toBottomOf="@id/forgot_your_password_login"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.85"/>
 
     <!--Don't have an account ? -->
     <TextView
         android:id="@+id/no_account"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
         android:text="@string/you_don_t_have_an_account"
         android:textAlignment="center"
         android:textColor="#88CCFF"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/login_button"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,OnClick"
+        android:clickable="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
